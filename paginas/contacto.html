@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <title> Rilsa S.A.S Contacto</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8">
+        <link rel="stylesheet" href="../estilos/estilos.css"> <!--link con hoja de estilo-->
+
+    </head>
+
+    <body>
+        
+        <header class="header"><!--encabezado-->
+
+            <nav><!--menu-->
+               <span id="logo"><img src="../Imagenes/rilsa sas logo.png" class="img__logo"></span><!--logo de la empresa-->
+               <span><a href="../index.html">Inicio</a></span><!--enlace externo-->
+               <span><a href="nosotros.html" >Quienes somos</a></span><!--enlace externo-->
+               <span><a href="productos.html" >Productos</a></span><!--enlace externo-->
+               <span><a href="servicios.html" >Servicios</a></span><!--enlace externo-->
+               <span><a href="contacto.html" >Contactenos</a></span><!--enlace externo-->
+            </nav>
+
+            <link rel="shortcut icon" href="Imagenes/rilsa_favicon.ico" type="image/x-icon">
+            <link rel="icon" href="Imagenes/rilsa_favicon.ico" type="image/x-icon"> <!-- favicon empresarial-->
+
+        </header>
+
+        <main><!--area principal-->   
+
+
+            <h5 class="h5_f"> ¿Estas interesado en nuestros servicios?</h5>
+            <h6 class="h5_f">Dejanos tus datos y nosotros te contactamos</h6>
+
+
+            <form action="">
+            <section>
+                <div class="form__box">
+                    <div class="form">
+                        <label for="nombre"></label>
+                        <input type="text" name ="nombre"placeholder="Nombre:" class="data__box">
+                    </div>
+
+                    <div class="form">
+                        <label for="apellido"></label>
+                        <input type="text" name="apellido" placeholder="Apellido:" class="data__box">
+                    </div>
+
+                    <div class="form">
+                        <label for="correo"></label>
+                        <input type="email" name="correo" placeholder="Correo:" class="data__box">
+                    </div>
+
+                    <div class="form">
+                        <label for="celular"></label>
+                        <input type="tel" name="celular" placeholder="Numero de Celular:" class="data__box">
+                    </div>
+
+                    <div class="form">
+                        <select name="equipo" class="opc">
+                            <option value="">Equipo</option>
+                            <option value="CR300">Cellocator CR300</option>
+                            <option value="310U">suntech_310U</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <!--caja de texto multilinea-->
+                        <label for="comentarios"></label><br> 
+                        <textarea name="comentarios" cols="30" rows="10" placeholder="En que te podemos ayudar:" class="box__txt"></textarea>
+                    </div>
+
+                    <section>
+                        <div class="form"> 
+                            <p class="acp__terms acp__terms:hover">Acepta terminos y condiciones</p>
+                            <input type="checkbox" name="acepta" value="1" />
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="form">
+                            <input type="submit" value="Enviar formulario" class="botones">
+                            <input type="reset" value="Limpiar formulario" class="botones">
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <h2 class="center">Dirección </h2>
+            <iframe class="center2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8139025220353!2d-74.0830445!3d4.627267000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd600d68593%3A0xee4fa6d88aa7b214!2sCra.%2031a%20%2325A-93%2C%20Teusaquillo%2C%20Bogot%C3%A1!5e0!3m2!1sen!2sco!4v1657586628273!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </main>
+
+        <footer><!--pie de pagina-->
+            <p class="letra__footer">Code by Juan Felipe Fonseca Vargas</p>
+        </footer>
+
+     
+    </body>
+
+</html>
