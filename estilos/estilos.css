@@ -61,11 +61,17 @@ a {
 a:hover {
     color: #1466CC;
 }
-ul{
+.ul{
  background-color: lightgoldenrodyellow;
  border-radius: 20px;
 }
-
+.footer{
+    margin-top: 150px;
+}
+.caja__carousel{
+    margin: 30px;
+    border-radius: 30px;
+}
     /******* MOBILE *******/
 
 @media only screen and (max-width:480px){
@@ -786,14 +792,14 @@ nav {
     width: 100vw; 
     margin-bottom: 20px;
 }
-span {
+.span {
     background-color: #1466CC;
     margin: 20px;
     padding: 15px;
     border-radius: 30px;
     text-decoration: none;
 }
-li{
+.li{
     width: 15vw;
     height: 5vh;
     margin-left: 10%;
@@ -827,7 +833,7 @@ h1,h2 {
 .h1 {
     grid-area: titulo;
     width: 50vw;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 .h2 {
     grid-area: titulo2;
@@ -878,7 +884,7 @@ h1,h2 {
 }
 .a{
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px;  
 }
 .img__aliado {/*estilo imagen aliado*/
     width: 100%;
@@ -921,16 +927,16 @@ h1,h2 {
 }
 #img2 {
     grid-area: img2;
-    margin-right: 10%;
-    margin-left: 40%;
+    margin-right: 20%;
+    margin-left: 20%;
     margin-top: 5%;
-    width: 50%;
-    height: 115%;
+    width: 65%;
+    height: 130%;
 }
 #img3{
     grid-area: img3;
     margin-left: 10%;
-    width: 50%;
+    width: 70%;
     height: 110%;
 }
 #img4{
@@ -998,7 +1004,7 @@ h1,h2 {
 }
 .section3 {
     width: 100%;
-    height: 170vh;
+    height: 45rem;
 }
 #h1_p1 {
     grid-area: titulo1;
@@ -1059,7 +1065,7 @@ h1,h2 {
 } 
 .sectionser{
     width: 100%;
-    height: 140rem;
+    height: 155rem;
 }
 .h1_s1 {
     grid-area: titulo1;
@@ -1097,8 +1103,12 @@ h1,h2 {
 }
 .li_s{
     grid-area: lista;
-    padding-top: 20%;
     margin-left: 40%;
+    margin-top: 15%;
+    padding-top: 3%;
+    background-color: wheat;
+    border-radius: 10px;
+    height: 20rem;
 }
 .img_s1{
     grid-area:img_s1 ;
@@ -1133,7 +1143,7 @@ h1,h2 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin-left: 40%;
+    margin-left: 35%;
     margin-right: 30%;
     margin-top: 20px;
     color: #1466CC;
@@ -1215,6 +1225,7 @@ h1,h2 {
     height: 80vh;
     padding: 15px;
     border-radius: 30px;
+    border: #1259B3 solid;
 }
 .img__serv {
     border-radius: 20px;
@@ -1239,11 +1250,10 @@ h1,h2 {
     margin: 20px;
 }
 .img__prod{     /*imagenes productos*/
-    width: 40vw;
-    height: 80vh;
+    width: 70%;
+    height: 70%;
     border-radius: 20px;
-    border: solid gold;
-    margin-right:30px ;
+    margin-left: 20%;
 }
 .img__prod:hover{
     border-color: lightgreen;
