@@ -61,10 +61,6 @@ a {
 a:hover {
     color: #1466CC;
 }
-.ul{
- background-color: lightgoldenrodyellow;
- border-radius: 20px;
-}
 .footer{
     margin-top: 150px;
 }
@@ -94,10 +90,13 @@ span {
     border-radius: 30px;
     text-decoration: none;
 }
+.ul{
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+   }
 li{
     width: 70vw;
     height: 5vh;
-    margin-left: 10%;
 }
 h1,h2 { 
     width: 20%;
@@ -122,6 +121,7 @@ h1,h2 {
 }
 .h1 {
     width: auto;
+    margin-left: 15%;
 }
 .h2 {
     width: auto;
@@ -169,7 +169,7 @@ h1,h2 {
 }
 .section2 {
     width: 100%;
-    height: 300vh;
+    height: 175rem;
 }
 #img1{
     width: 90%;
@@ -227,11 +227,11 @@ h1,h2 {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 190vh;
+    height: auto;
 }
 .section3 {
     width: 100%;
-    height: 160vh;
+    height: auto;
 }
 #h1_p1 {
     width: 70%;
@@ -273,11 +273,11 @@ h1,h2 {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 180rem;
+    height: 210rem;
 } 
 .sectionser{
     width: 100%;
-    height: 280rem;
+    height: 210rem;
 }
 .h1_s1 {
     width: 70%;
@@ -306,7 +306,7 @@ h1,h2 {
     margin-left:2% ;
 }
 .li_s{
-    margin-top: 35%;
+    margin-top: 15%;
     padding-top: 10%;
 }
 .img_s1{
@@ -341,8 +341,9 @@ h1,h2 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    width: 70%;
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 17%;
     color: #1466CC;
     border:solid gold;
 }
@@ -360,7 +361,8 @@ h1,h2 {
     color: #1466CC;
     border:solid gold;
     border-radius: 10px;
-}.form{ /*formularios*/
+}
+.form{ /*formularios*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -402,14 +404,18 @@ nav {
 span {
     background-color: #1466CC;
     margin: 5px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 30px;
     text-decoration: none;
 }
+.ul{
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    height: 30rem;
+   }
 li{
-    width: 15vw;
-    height: 4.5rem;
-    margin-left: 10%;
+    width: 15rem;
+    height: 4rem;
 }
 h1,h2 { 
     width: 20%;
@@ -433,8 +439,9 @@ h1,h2 {
     height: 50rem;
 }
 .h1 {
-    width: 700px;
+    width: 500px;
     height: 100px;
+    margin-left: 10%;
 }
 .h2 {
     height: 100px;
@@ -508,7 +515,7 @@ h1,h2 {
 }
 .section2 {
     width: 100%;
-    height: 100rem;
+    height: 120rem;
 }
 #img1{
     grid-area: img1;
@@ -595,7 +602,7 @@ h1,h2 {
 }
 .section3 {
     width: 100%;
-    height: 85rem;
+    height: 35rem;
 }
 #h1_p1 {
     grid-area: titulo1;
@@ -660,7 +667,7 @@ h1,h2 {
 } 
 .sectionser{
     width: 100%;
-    height: 135rem;
+    height: 140rem;
 }
 .h1_s1 {
     grid-area: titulo1;
@@ -698,8 +705,6 @@ h1,h2 {
 }
 .li_s{
     grid-area: lista;
-    padding-top: 10%;
-    margin-left: 8%;
 }
 .img_s1{
     grid-area:img_s1 ;
@@ -735,11 +740,12 @@ h1,h2 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin-left: 27%;
+    margin-left: 20%;
     margin-right: 30%;
     margin-top: 20px;
     color: #1466CC;
     border:solid gold;
+    border-radius: 10px;
 }
 .h5_f {
     margin-left: 5%;
@@ -799,10 +805,14 @@ nav {
     border-radius: 30px;
     text-decoration: none;
 }
+.ul{
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    height: 40rem;
+   }
 .li{
-    width: 15vw;
-    height: 5vh;
-    margin-left: 10%;
+    width: 15rem;
+    height: 3rem;
 }
 h1,h2 { 
     width: 20%;
@@ -1108,7 +1118,7 @@ h1,h2 {
     padding-top: 3%;
     background-color: wheat;
     border-radius: 10px;
-    height: 20rem;
+    height: 25rem;
 }
 .img_s1{
     grid-area:img_s1 ;
@@ -1304,4 +1314,3 @@ h1,h2 {
     color: #1466CC;
     text-decoration: none;
 }
-
