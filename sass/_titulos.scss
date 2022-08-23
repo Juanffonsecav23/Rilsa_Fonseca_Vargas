@@ -1,0 +1,32 @@
+/* VARIABLE */
+
+$azul:#4062FF;
+
+/* Estilos titulos*/
+h3 {
+    color: $azul;
+    font-size: 4rem;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    margin: 10px;
+}
+h4 {
+    color: $azul;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+}
+h5 {
+    color: $azul;
+    font-size: 2rem;
+    padding: 10px;
+    font-family: 'Merriweather', serif; 
+}
+h6 {
+    color: $azul;
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;  
+}

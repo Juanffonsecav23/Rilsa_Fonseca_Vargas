@@ -1,0 +1,75 @@
+
+    /******** IMPORTACIONES *********/
+
+@import "titulos";
+@import "estructura";
+@import "imagenes";
+@import "formulario";
+@import "mediaq";
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap'); /**estilo de texto**/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');/**estilo de texto**/
+
+
+    /********** RESETEO ************/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /****** Estilos genereles  *******/
+
+
+
+/*estilo links*/
+a { 
+    text-decoration: none;
+    color: gold;
+    padding : 10px;
+}
+a:hover {
+    color: blue;
+}
+
+
+    /**** Estilos especificos ****/
+
+
+/*estilos parrafos*/
+.p { 
+    size: 3rem;
+    color: black;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+}
+/* Carousel */
+.caja__carousel{
+    margin: 30px;
+    border-radius: 30px;
+}
+/* animacion */
+.anima {
+    animation-name:logo ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes logo{
+    0% /*inicio*/{
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100% /*fin*/{
+    }
+}
+
+
+
+ 
