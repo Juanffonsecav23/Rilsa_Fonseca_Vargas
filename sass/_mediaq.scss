@@ -821,15 +821,15 @@ $dorado:gold;
         margin-left: 5%;
     }
     .recom { /*estilo cajas productos recomendados*/
-        height: 100%;
-        width: auto;
+  /*       height: 20%;
+        width: auto; */
         border-radius: 30px;
         border: solid $dorado;
         background-color: lightgoldenrodyellow;
     }
     .a{
         padding-left: 30px;
-        padding-bottom: 30px;  
+/*         padding-bottom: 30px;   */
     }
     .img__aliado {/*estilo imagen aliado*/
         width: 100%;
@@ -1133,3 +1133,26 @@ $dorado:gold;
     }
     }
     
+    .txt__mas{ /*estilo caja mas info*/
+        color: #1466CC;
+        text-decoration: none;
+    }
+    .botones {
+/*         width: 120px;
+        height: 30px; */
+        background-image:linear-gradient(lightblue,rgb(150, 150, 255));
+        color:black;
+        border:solid gold;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+/*estilo links*/
+a { 
+    text-decoration: none;
+    color: gold;
+    padding : 10px;
+}
+a:hover {
+    color: blue;
+}
