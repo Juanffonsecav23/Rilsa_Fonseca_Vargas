@@ -179,11 +179,11 @@ body { /*estilo del cuerpo*/
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 180vh;
+    height: 110rem;
   }
   .section {
     width: 100%;
-    height: 300vh;
+    height: 200rem;
   }
   .h1 {
     width: auto;
@@ -302,7 +302,7 @@ body { /*estilo del cuerpo*/
     width: 70%;
   }
   #h2_p2 {
-    width: 60%;
+    width: 90%;
   }
   #img_p1 {
     height: 15rem;
@@ -331,25 +331,30 @@ body { /*estilo del cuerpo*/
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 210rem;
+    height: 170rem;
   }
   .sectionser {
     width: 100%;
-    height: 210rem;
   }
   .h1_s1 {
-    width: 70%;
-    height: 15%;
-    margin-right: 25%;
+    width: 90%;
+    height: 5%;
+    font-size: 2rem;
   }
   .h2_s2 {
     width: 90%;
+    height: 5%;
+    font-size: 2rem;
   }
   .h2_s3 {
     width: 90%;
+    font-size: 2rem;
+    height: 10%;
   }
   .h2_s4 {
     width: 90%;
+    height: 5%;
+    font-size: 2rem;
   }
   .ps1 {
     padding: 3%;
@@ -368,8 +373,6 @@ body { /*estilo del cuerpo*/
     padding-top: 10%;
   }
   .img_s1 {
-    width: auto;
-    height: auto;
     margin-top: 5%;
     margin-left: 5%;
   }
@@ -385,13 +388,14 @@ body { /*estilo del cuerpo*/
     height: 30vh;
   }
   .img_s4 {
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 10%;
     margin-left: 10%;
+    margin-right: 10%;
   }
   .img_s5 {
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 10%;
     margin-left: 10%;
     margin-top: 5%;
   }
@@ -408,6 +412,7 @@ body { /*estilo del cuerpo*/
   .h5_f {
     margin-left: 2%;
     width: 90%;
+    font-size: 2rem;
   }
   .form__box { /*caja formulario*/
     margin: 5px;
@@ -489,7 +494,7 @@ body { /*estilo del cuerpo*/
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 90rem;
+    height: 105rem;
   }
   .section {
     width: 100%;
@@ -503,27 +508,37 @@ body { /*estilo del cuerpo*/
   .h2 {
     height: 100px;
     margin-left: 10%;
+    margin-right: 10%;
   }
   #caja1 {
     width: 50%;
     margin-left: 20%;
+    margin-right: 20%;
   }
   #caja2 {
     width: 50%;
     margin-left: 20%;
+    margin-right: 20%;
   }
   #caja3 {
     width: 50%;
     margin-left: 20%;
+    margin-right: 20%;
   }
   #botones {
     margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
   }
   #botones2 {
     margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
   }
   #botones3 {
     margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
   }
   #caja4 {
     width: auto;
@@ -648,7 +663,7 @@ body { /*estilo del cuerpo*/
   }
   .section3 {
     width: 100%;
-    height: 62rem;
+    height: 50rem;
   }
   #h1_p1 {
     grid-area: titulo1;
@@ -700,7 +715,7 @@ body { /*estilo del cuerpo*/
   }
   .sectionser {
     width: 100%;
-    height: 140rem;
+    height: 160rem;
   }
   .h1_s1 {
     grid-area: titulo1;
@@ -738,6 +753,7 @@ body { /*estilo del cuerpo*/
   }
   .li_s {
     grid-area: lista;
+    margin-left: 5%;
   }
   .img_s1 {
     grid-area: img_s1;
@@ -747,9 +763,9 @@ body { /*estilo del cuerpo*/
   }
   .img_s2 {
     grid-area: img_s2;
-    margin-left: 35%;
-    width: auto;
-    height: auto;
+    margin-left: 5%;
+    width: 90%;
+    height: 30rem;
   }
   .img_s3 {
     grid-area: img_s3;
@@ -865,7 +881,7 @@ body { /*estilo del cuerpo*/
   }
   .section {
     width: auto;
-    height: 100vh;
+    height: 50rem;
   }
   .h1 {
     grid-area: titulo;
@@ -892,20 +908,23 @@ body { /*estilo del cuerpo*/
   }
   #botones {
     grid-area: boton;
-    margin-left: 45%;
-    margin-right: 25%;
+    width: 120px;
+    margin-left: 60%;
+    margin-right: 20%;
     height: 40%;
   }
   #botones2 {
     grid-area: boton2;
-    margin-left: 30%;
+    width: 120px;
+    margin-left: 45%;
     margin-right: 40%;
     height: 40%;
   }
   #botones3 {
     grid-area: boton3;
-    margin-right: 50%;
-    margin-left: 20%;
+    width: 120px;
+    margin-right: 40%;
+    margin-left: 30%;
     height: 40%;
   }
   #caja4 {
@@ -917,8 +936,6 @@ body { /*estilo del cuerpo*/
     margin-left: 5%;
   }
   .recom { /*estilo cajas productos recomendados*/
-    /*       height: 20%;
-          width: auto; */
     border-radius: 30px;
     border: solid gold;
     background-color: lightgoldenrodyellow;
@@ -1126,31 +1143,22 @@ body { /*estilo del cuerpo*/
   }
   .img_s1 {
     grid-area: img_s1;
-    width: 30vw;
-    height: auto;
     border-radius: 30px;
   }
   .img_s2 {
     grid-area: img_s2;
     margin-left: 30%;
-    width: 35%;
-    height: 250px;
   }
   .img_s3 {
-    width: 70%;
     grid-area: img_s3;
     margin-left: 20%;
   }
   .img_s4 {
     grid-area: img_s4;
-    width: auto;
-    height: 15rem;
     margin-left: 35%;
   }
   .img_s5 {
     grid-area: img_s5;
-    width: auto;
-    height: 15rem;
     margin-left: 35%;
   }
   .box__txt { /*caja de texto*/
@@ -1208,23 +1216,22 @@ span:hover {
 .txt__mas { /*estilo caja mas info*/
   color: #1466CC;
   text-decoration: none;
+  padding-bottom: 5px;
 }
 
 .botones {
-  /*         width: 120px;
-          height: 30px; */
   background-image: linear-gradient(lightblue, rgb(150, 150, 255));
   color: black;
   border: solid gold;
   border-radius: 20px;
   margin: 10px;
+  padding-bottom: 5px;
 }
 
 /*estilo links*/
 a {
   text-decoration: none;
   color: gold;
-  padding: 10px;
 }
 
 a:hover {
