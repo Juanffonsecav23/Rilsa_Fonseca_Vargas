@@ -1,6 +1,7 @@
         /****** VARIABLE *******/
 
 $dorado:gold;
+$azuloscuro:darkblue;
 
 
         /******* MOBILE *******/
@@ -13,13 +14,13 @@ $dorado:gold;
         flex-flow: column nowrap;
         justify-content:center;
         align-items: center;
-        background-color: black;
+        background-color: $azuloscuro;
         width: 100vw; 
-        height: 70VH;
+        height: 70%;
         margin-bottom: 20px;
     }
     span {
-        background-color: #1466CC;
+        background-color: $azuloscuro;
         margin: 20px;
         padding: 15px;
         border-radius: 30px;
@@ -174,14 +175,8 @@ $dorado:gold;
     #h2_p2 {
         width: 60%;
     }
-    #img_p1{
-        height: 70vh;
-        width: 20rem;
-        margin-left: 10%;
-        margin-bottom: 10%;
-    }
-    #img_p2 {
-        height: 70vh;
+    #img_p1 {
+        height: 15rem;
         width: 20rem;
         margin-left: 10%;
         margin-bottom: 10%;
@@ -284,11 +279,13 @@ $dorado:gold;
     }
     .h5_f {
         margin-left: 2%;
+        width: 90%;
     }
     .form__box { /*caja formulario*/
         margin: 5px;
         border: solid 10px #1259B3;
         border-radius: 10px;
+        background-color:rgba(173, 216, 230, 0.925);
     }
     .data__box { /*cajas de datos cliente*/
         width: 300px;
@@ -332,7 +329,7 @@ $dorado:gold;
         flex-flow: row nowrap;
         justify-content:center;
         align-items: center;
-        background-color: black;
+        background-color: $azuloscuro;
         width: 100vw; 
         margin-bottom: 20px;
     }
@@ -537,17 +534,18 @@ $dorado:gold;
     }
     .section3 {
         width: 100%;
-        height: 35rem;
+        height: 62rem;
     }
     #h1_p1 {
         grid-area: titulo1;
         width: 70%;
-        margin-left: 15%;
+        margin-bottom: 13%;
     }
     #h2_p2 {
         grid-area: titulo2;
-        width: 60%;
-        margin-left: 20%;
+        width: 90%;
+        margin-bottom: 13%;
+
     }
     #img_p1{
         grid-area: imgp1;
@@ -684,11 +682,13 @@ $dorado:gold;
     }
     .h5_f {
         margin-left: 5%;
+        width: 90%;
     }
     .form__box { /*caja formulario*/
         margin: 5px 20%;
         border: solid 10px #1259B3;
         border-radius: 10px;
+        background-color:rgba(173, 216, 230, 0.925);
     }
     .data__box { /*cajas de datos cliente*/
         width: 300px;
@@ -729,11 +729,11 @@ $dorado:gold;
         flex-flow: row nowrap;
         justify-content:center;
         align-items: center;
-        background-color: darkblue;
+        background-color: $azuloscuro;
         width: 100vw; 
         margin-bottom: 20px;
     }
-    .span {
+    span {
         background-color: none;
         margin: 20px;
         padding: 15px;
@@ -800,17 +800,21 @@ $dorado:gold;
     }
     #botones {
         grid-area: boton;
-        margin-left: 50%;
+        margin-left: 45%;
+        margin-right: 25%;
+        height: 40%;
     }
     #botones2 {
         grid-area: boton2;
-        margin-left: 40%;
-        margin-right:50% ;
-    
-    }#botones3 {
+        margin-left: 30%;
+        margin-right:40% ;
+        height: 40%;
+    }
+    #botones3 {
         grid-area: boton3;
         margin-right: 50%;
         margin-left: 20%;
+        height: 40%;
     }
     #caja4{
         grid-area: caja4;
@@ -949,17 +953,15 @@ $dorado:gold;
     }
     .section3 {
         width: 100%;
-        height: 50rem;
+        height: 55rem;
     }
     #h1_p1 {
         grid-area: titulo1;
         width: 70%;
-        margin-left: 15%;
     }
     #h2_p2 {
         grid-area: titulo2;
         width: 60%;
-        margin-left: 20%;
     }
     #img_p1{
         grid-area: imgp1;
@@ -1010,7 +1012,7 @@ $dorado:gold;
     } 
     .sectionser{
         width: 100%;
-        height: 155rem;
+        height: 145rem;
     }
     .h1_s1 {
         grid-area: titulo1;
@@ -1064,8 +1066,8 @@ $dorado:gold;
     .img_s2 {
         grid-area: img_s2;
         margin-left: 30%;
-        width: 50%;
-        height: auto;
+        width: 35%;
+        height: 50px * 5;
     }
     .img_s3 {
         width: 70%;
@@ -1132,7 +1134,9 @@ $dorado:gold;
         width: 40rem;
     }
     }
-    
+    span:hover{
+        background-color: white;
+    } 
     .txt__mas{ /*estilo caja mas info*/
         color: #1466CC;
         text-decoration: none;
@@ -1146,7 +1150,6 @@ $dorado:gold;
         border-radius: 20px;
         margin: 10px;
     }
-
 /*estilo links*/
 a { 
     text-decoration: none;
