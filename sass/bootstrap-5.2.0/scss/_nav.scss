@@ -22,18 +22,22 @@
 }
 
 .nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: block;
   padding: var(--#{$prefix}nav-link-padding-y) var(--#{$prefix}nav-link-padding-x);
   @include font-size(var(--#{$prefix}nav-link-font-size));
   font-weight: var(--#{$prefix}nav-link-font-weight);
-  color: var(--#{$prefix}nav-link-color);
+  color: $nav-link-color;
   text-decoration: if($link-decoration == none, null, none);
   @include transition($nav-link-transition);
 
   &:hover,
   &:focus {
-    color: var(--#{$prefix}nav-link-hover-color);
+    color: $nav-link-hover-color;
     text-decoration: if($link-hover-decoration == underline, none, null);
+    border-radius: 30px;
+    background-color: whitesmoke;
   }
 
   // Disabled state lightens text
@@ -64,7 +68,6 @@
   .nav-link {
     margin-bottom: calc(var(--#{$prefix}nav-tabs-border-width) * -1); // stylelint-disable-line function-disallowed-list
     background: none;
-    border: var(--#{$prefix}nav-tabs-border-width) solid transparent;
     @include border-top-radius(var(--#{$prefix}nav-tabs-border-radius));
 
     &:hover,
@@ -81,7 +84,9 @@
       border-color: transparent;
     }
   }
-
+  .nav-item{
+    border-radius: 30px;
+  }
   .nav-link.active,
   .nav-item.show .nav-link {
     color: var(--#{$prefix}nav-tabs-link-active-color);
@@ -111,7 +116,7 @@
 
   .nav-link {
     background: none;
-    border: 0;
+    border: 30px;
     @include border-radius(var(--#{$prefix}nav-pills-border-radius));
 
     &:disabled {
@@ -144,6 +149,7 @@
 .nav-justified {
   > .nav-link,
   .nav-item {
+    width: 150px;
     flex-basis: 0;
     flex-grow: 1;
     text-align: center;
