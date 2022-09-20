@@ -1,7 +1,8 @@
         /****** VARIABLE *******/
 
-$dorado:gold;
+$dorado:rgb(237, 237, 237);
 $azuloscuro:darkblue;
+$negro: rgb(210, 215, 253);
 
 
         /******* MOBILE *******/
@@ -54,6 +55,7 @@ $azuloscuro:darkblue;
     .section {
         width: 100%;
         height: 200rem;
+        background-color: $negro;
     }
     .h1 {
         width: auto;
@@ -328,22 +330,16 @@ $azuloscuro:darkblue;
     
     @media only screen and (min-width:481px) and (max-width:978px){
         /***menu de la pàgina***/
-    
-/*     nav { 
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content:center;
-        align-items: center;
-        background-color: $azuloscuro;
-        width: 100vw; 
-        margin-bottom: 20px;
-    } */
     span {
         background-color: none;
         margin: 5px;
         padding: 10px;
         border-radius: 30px;
         text-decoration: none;
+    }
+    /* Carousel */
+    .caja__carousel{
+    border-radius: 30px;
     }
     .ul{
         background-color: lightgoldenrodyellow;
@@ -369,7 +365,7 @@ $azuloscuro:darkblue;
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 105rem;
+        height: 110rem;
     }
     .section {
         width: 100%;
@@ -467,8 +463,8 @@ $azuloscuro:darkblue;
     #img1{
         grid-area: img1;
         margin-left: 10%;
-        width: 80%;
-        height: 100%;
+        width: 75%;
+        height: 82%;
     }
     #img2 {
         grid-area: img2;
@@ -476,7 +472,7 @@ $azuloscuro:darkblue;
         margin-left: 20%;
         margin-top: 5%;
         width: 70%;
-        height: 115%;
+        height: 100%;
     }
     #img3{
         grid-area: img3;
@@ -488,13 +484,13 @@ $azuloscuro:darkblue;
         grid-area: img4;
         margin-right: 10%;
         margin-left: 10%;
+        margin-bottom: 5%;
         width: 80%;
         height: 100%;
     }
     .p2 {
         grid-area: texto1;
-        margin-top: 50px;
-        margin-right: 60px;
+        margin-right: 5%;
         padding-bottom: 10%;
         font-family: 'Roboto', sans-serif;
     }
@@ -521,12 +517,12 @@ $azuloscuro:darkblue;
     }
     .h1_1 {
         grid-area: titulo1;
-        margin-left: 20%;
+        margin-left: 25%;
         width:600px;
     }
     .h1_2 {
         grid-area: titulo2;
-        margin-left: 35%;
+        margin-left: 40%;
         margin-top: 10%;
         width: 400px;
     }
@@ -615,7 +611,7 @@ $azuloscuro:darkblue;
     } 
     .sectionser{
         width: 100%;
-        height: 175rem;
+        height: 185rem;
     }
     .h1_s1 {
         grid-area: titulo1;
@@ -696,9 +692,13 @@ $azuloscuro:darkblue;
         border:solid $dorado;
         border-radius: 10px;
     }
-    .h5_f {
-        margin-left: 5%;
-        width: 90%;
+    .h5-c1 {
+        width: 100%;
+        margin-left: 20%;
+    }
+    .h5-c2{
+        width: 100%;
+        margin-left: 17%;
     }
     .form__box { /*caja formulario*/
         margin: 5px 20%;
@@ -739,19 +739,14 @@ $azuloscuro:darkblue;
     
     @media only screen and (min-width:979px){
         /***menu de la pàgina***/
-    
-/*     nav { 
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content:center;
-        align-items: center;
-        background-color: $azuloscuro;
-        width: 100vw; 
-        margin-bottom: 20px;
-    } */
     .menuh{
         margin-right: 20%;
     } 
+    /* Carousel */
+    .caja__carousel{   
+    margin: 30px;
+    border-radius: 30px;
+    }
     span {
         background-color: none;
         margin: 20px;
@@ -789,6 +784,7 @@ $azuloscuro:darkblue;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-column-gap: 10px;
         grid-row-gap: 15px;
+        margin-bottom: 5%;
     }
     .section {
         width: auto;
@@ -841,10 +837,12 @@ $azuloscuro:darkblue;
     #caja4{
         grid-area: caja4;
         margin-left: 5%;
+        margin-bottom: 5%;
     }
     #caja5{
         grid-area: caja5;
         margin-left: 5%;
+        margin-bottom: 5%;
     }
     .recom { /*estilo cajas productos recomendados*/
         border-radius: 30px;
@@ -886,7 +884,7 @@ $azuloscuro:darkblue;
     }
     .section2 {
         width: 100%;
-        height: 210vh;
+        height: 107rem;
     }
     #img1{
         grid-area: img1;
@@ -896,22 +894,21 @@ $azuloscuro:darkblue;
     }
     #img2 {
         grid-area: img2;
-        margin-right: 20%;
-        margin-left: 20%;
-        margin-top: 5%;
+        margin: 5% 20%;
         width: 65%;
-        height: 130%;
+        height: 120%;
     }
     #img3{
         grid-area: img3;
         margin-left: 10%;
         width: 70%;
-        height: 110%;
+        height: 120%;
     }
     #img4{
         grid-area: img4;
         margin-right: 10%;
         margin-left: 30%;
+        margin-bottom: 2rem;
         width: 60%;
         height: 100%;
     }
@@ -973,7 +970,7 @@ $azuloscuro:darkblue;
     }
     .section3 {
         width: 100%;
-        height: 55rem;
+        height: 57rem;
     }
     #h1_p1 {
         grid-area: titulo1;
@@ -1030,7 +1027,7 @@ $azuloscuro:darkblue;
     } 
     .sectionser{
         width: 100%;
-        height: 155rem;
+        height: 160rem;
     }
     .h1_s1 {
         grid-area: titulo1;
@@ -1105,14 +1102,17 @@ $azuloscuro:darkblue;
         color: #1466CC;
         border:solid $dorado;
     }
-    .h5_f {
+    .h5-c1 {
         margin-left: 20%;
+    }
+    .h5-c2{
+        margin-left: 17%;
     }
     .form__box { /*caja formulario*/
         margin: 5px 20%;
         border: solid 10px #1259B3;
         border-radius: 10px;
-        background-color:rgba(173, 216, 230, 0.925);
+        background-color:rgba(211, 235, 243, 0.925);
     }
     .data__box { /*cajas de datos cliente*/
         width: 300px;
@@ -1154,7 +1154,7 @@ $azuloscuro:darkblue;
     .botones {
         background-image:linear-gradient(lightblue,rgb(150, 150, 255));
         color:black;
-        border:solid gold;
+        border:solid $dorado;
         border-radius: 20px;
         margin: 10px;
         padding-bottom: 5px;

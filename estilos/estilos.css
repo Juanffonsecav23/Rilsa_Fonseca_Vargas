@@ -1,148 +1,9 @@
 @charset "UTF-8";
 /******** IMPORTACIONES *********/
-/* VARIABLE */
-/* Estilos titulos*/
-@import url("https://fonts.googleapis.com/css2?family=Kotta+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
-h3, .h3 {
-  color: #4062FF;
-  font-size: 4rem;
-  padding: 10px;
-  font-family: "Merriweather", serif;
-  margin: 10px;
-}
-
-h4, .h4 {
-  color: #4062FF;
-  font-size: 2rem;
-  padding: 10px;
-  margin: 10px;
-  font-family: "Merriweather", serif;
-}
-
-h5, .h5 {
-  color: #4062FF;
-  font-size: 2rem;
-  padding: 10px;
-  font-family: "Merriweather", serif;
-}
-
-h6, .h6 {
-  color: #4062FF;
-  font-size: 2rem;
-  padding: 10px;
-  margin-bottom: 30px;
-  font-family: "Merriweather", serif;
-}
-
-header { /*estilos encabezado*/
-  width: 100%;
-  top: 0;
-}
-
-body { /*estilo del cuerpo*/
-  background-color: white;
-  width: 100%;
-  height: 100vh;
-}
-
-.footer { /* Estilo del pie de pagina */
-  margin-top: 150px;
-}
-
-/*estilo logo*/
-#logo {
-  background-color: darkblue;
-  padding: 5px;
-  border-radius: 30px;
-  list-style: none;
-}
-
-/******* Imagenes ********/
-.img__promo { /*imagen promocion*/
-  width: 100%;
-  height: 80vh;
-  padding: 15px;
-  border-radius: 30px;
-}
-
-.img__serv, .img__serv4, .img__serv3, .img__serv2 { /*Imagenes servicios 1 */
-  border-radius: 20px;
-}
-
-.img__serv3 {
-  border: solid black;
-}
-
-.img__serv4 { /*imagens servicios 4*/
-  margin-right: 30px;
-}
-
-.img__mis { /*imagen vision*/
-  width: 50%;
-  margin: 20px;
-}
-
-.img__vis { /*imagen vision*/
-  width: 100%;
-  margin: 20px;
-}
-
-.img__prod { /*imagenes productos*/
-  width: auto;
-  height: 30rem;
-  border-radius: 20px;
-}
-
-.img__prod2 { /*imagenes productos 2 */
-  width: 90%;
-  height: 70%;
-  border-radius: 20px;
-}
-
-.img__logo { /*caja con imagen logo*/
-  width: 120px;
-  height: 60px;
-  border-radius: 30px;
-}
-
-.imgs__border { /*borde imagenes */
-  border-radius: 30px;
-  border: solid gold;
-}
-
-.img__promo { /*estilo iamgen promocion*/
-  width: 100%;
-  height: 80vh;
-  padding: 15px;
-  border-radius: 30px;
-}
-
-.main__logo {
-  width: 40%;
-  height: 20%;
-  margin-left: 30%;
-}
-
-/* ESTILOS ESPECIFICOS DE FORMULARIO */
-.acp__terms { /*aceptar terminos y condiciones*/
-  color: darkblue;
-  text-decoration: underline;
-}
-
-.acp__terms:hover {
-  color: darkgreen;
-}
-
-.txt__box { /*estilo caja aliado*/
-  background-color: white;
-  margin-right: 65%;
-  margin-top: 20px;
-  margin-left: 17px;
-}
-
 /****** VARIABLE *******/
 /******* MOBILE *******/
+@import url("https://fonts.googleapis.com/css2?family=Kotta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 @media only screen and (max-width: 480px) {
   /***menu de la pàgina***/
   /*     nav { 
@@ -190,6 +51,7 @@ body { /*estilo del cuerpo*/
   .section {
     width: 100%;
     height: 200rem;
+    background-color: rgb(210, 215, 253);
   }
   .h1 {
     width: auto;
@@ -209,14 +71,14 @@ body { /*estilo del cuerpo*/
   }
   .img__aliado { /*estilo imagen aliado*/
     width: 50%;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 20px;
   }
   .recom { /*estilo cajas productos recomendados*/
     height: 100%;
     width: auto;
     border-radius: 30px;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     background-color: lightgoldenrodyellow;
   }
   .letra__footer { /*letra del pie de pagina*/
@@ -413,7 +275,7 @@ body { /*estilo del cuerpo*/
     margin-top: 20px;
     margin-left: 17%;
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
   }
   .h5_f {
     margin-left: 2%;
@@ -430,7 +292,7 @@ body { /*estilo del cuerpo*/
     width: 300px;
     height: 1.2rem;
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 10px;
   }
   .form { /*formularios*/
@@ -443,7 +305,7 @@ body { /*estilo del cuerpo*/
   }
   .opc { /*opciones*/
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 20px;
     width: 120px;
     background-color: white;
@@ -460,21 +322,16 @@ body { /*estilo del cuerpo*/
 /******* TABLET *******/
 @media only screen and (min-width: 481px) and (max-width: 978px) {
   /***menu de la pàgina***/
-  /*     nav { 
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content:center;
-          align-items: center;
-          background-color: $azuloscuro;
-          width: 100vw; 
-          margin-bottom: 20px;
-      } */
   span {
     background-color: none;
     margin: 5px;
     padding: 10px;
     border-radius: 30px;
     text-decoration: none;
+  }
+  /* Carousel */
+  .caja__carousel {
+    border-radius: 30px;
   }
   .ul {
     background-color: lightgoldenrodyellow;
@@ -500,7 +357,7 @@ body { /*estilo del cuerpo*/
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 105rem;
+    height: 110rem;
   }
   .section {
     width: 100%;
@@ -556,7 +413,7 @@ body { /*estilo del cuerpo*/
   }
   .recom { /*estilo cajas productos recomendados*/
     border-radius: 30px;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     background-color: lightgoldenrodyellow;
   }
   .a {
@@ -565,7 +422,7 @@ body { /*estilo del cuerpo*/
   }
   .img__aliado { /*estilo imagen aliado*/
     width: 50%;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 20px;
   }
   .letra__footer { /*letra del pie de pagina*/
@@ -591,8 +448,8 @@ body { /*estilo del cuerpo*/
   #img1 {
     grid-area: img1;
     margin-left: 10%;
-    width: 80%;
-    height: 100%;
+    width: 75%;
+    height: 82%;
   }
   #img2 {
     grid-area: img2;
@@ -600,7 +457,7 @@ body { /*estilo del cuerpo*/
     margin-left: 20%;
     margin-top: 5%;
     width: 70%;
-    height: 115%;
+    height: 100%;
   }
   #img3 {
     grid-area: img3;
@@ -612,13 +469,13 @@ body { /*estilo del cuerpo*/
     grid-area: img4;
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom: 5%;
     width: 80%;
     height: 100%;
   }
   .p2 {
     grid-area: texto1;
-    margin-top: 50px;
-    margin-right: 60px;
+    margin-right: 5%;
     padding-bottom: 10%;
     font-family: "Roboto", sans-serif;
   }
@@ -644,12 +501,12 @@ body { /*estilo del cuerpo*/
   }
   .h1_1 {
     grid-area: titulo1;
-    margin-left: 20%;
+    margin-left: 25%;
     width: 600px;
   }
   .h1_2 {
     grid-area: titulo2;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 10%;
     width: 400px;
   }
@@ -721,7 +578,7 @@ body { /*estilo del cuerpo*/
   }
   .sectionser {
     width: 100%;
-    height: 175rem;
+    height: 185rem;
   }
   .h1_s1 {
     grid-area: titulo1;
@@ -799,12 +656,16 @@ body { /*estilo del cuerpo*/
     margin-right: 30%;
     margin-top: 20px;
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 10px;
   }
-  .h5_f {
-    margin-left: 5%;
-    width: 90%;
+  .h5-c1 {
+    width: 100%;
+    margin-left: 20%;
+  }
+  .h5-c2 {
+    width: 100%;
+    margin-left: 17%;
   }
   .form__box { /*caja formulario*/
     margin: 5px 20%;
@@ -816,7 +677,7 @@ body { /*estilo del cuerpo*/
     width: 300px;
     height: 30px;
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 10px;
   }
   .form { /*formularios*/
@@ -828,7 +689,7 @@ body { /*estilo del cuerpo*/
   }
   .opc { /*opciones*/
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 20px;
     width: 120px;
     background-color: white;
@@ -843,17 +704,13 @@ body { /*estilo del cuerpo*/
 /******* DESKTOP *******/
 @media only screen and (min-width: 979px) {
   /***menu de la pàgina***/
-  /*     nav { 
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content:center;
-          align-items: center;
-          background-color: $azuloscuro;
-          width: 100vw; 
-          margin-bottom: 20px;
-      } */
   .menuh {
     margin-right: 20%;
+  }
+  /* Carousel */
+  .caja__carousel {
+    margin: 30px;
+    border-radius: 30px;
   }
   span {
     background-color: none;
@@ -887,6 +744,7 @@ body { /*estilo del cuerpo*/
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 15px;
+    margin-bottom: 5%;
   }
   .section {
     width: auto;
@@ -939,14 +797,16 @@ body { /*estilo del cuerpo*/
   #caja4 {
     grid-area: caja4;
     margin-left: 5%;
+    margin-bottom: 5%;
   }
   #caja5 {
     grid-area: caja5;
     margin-left: 5%;
+    margin-bottom: 5%;
   }
   .recom { /*estilo cajas productos recomendados*/
     border-radius: 30px;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     background-color: lightgoldenrodyellow;
   }
   .a {
@@ -955,7 +815,7 @@ body { /*estilo del cuerpo*/
   }
   .img__aliado { /*estilo imagen aliado*/
     width: 100%;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 20px;
   }
   .letra__footer { /*letra del pie de pagina*/
@@ -976,7 +836,7 @@ body { /*estilo del cuerpo*/
   }
   .section2 {
     width: 100%;
-    height: 210vh;
+    height: 107rem;
   }
   #img1 {
     grid-area: img1;
@@ -986,22 +846,21 @@ body { /*estilo del cuerpo*/
   }
   #img2 {
     grid-area: img2;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 5%;
+    margin: 5% 20%;
     width: 65%;
-    height: 130%;
+    height: 120%;
   }
   #img3 {
     grid-area: img3;
     margin-left: 10%;
     width: 70%;
-    height: 110%;
+    height: 120%;
   }
   #img4 {
     grid-area: img4;
     margin-right: 10%;
     margin-left: 30%;
+    margin-bottom: 2rem;
     width: 60%;
     height: 100%;
   }
@@ -1059,7 +918,7 @@ body { /*estilo del cuerpo*/
   }
   .section3 {
     width: 100%;
-    height: 55rem;
+    height: 57rem;
   }
   #h1_p1 {
     grid-area: titulo1;
@@ -1103,7 +962,7 @@ body { /*estilo del cuerpo*/
   }
   .sectionser {
     width: 100%;
-    height: 155rem;
+    height: 160rem;
   }
   .h1_s1 {
     grid-area: titulo1;
@@ -1176,22 +1035,25 @@ body { /*estilo del cuerpo*/
     margin-right: 30%;
     margin-top: 20px;
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
   }
-  .h5_f {
+  .h5-c1 {
     margin-left: 20%;
+  }
+  .h5-c2 {
+    margin-left: 17%;
   }
   .form__box { /*caja formulario*/
     margin: 5px 20%;
     border: solid 10px #1259B3;
     border-radius: 10px;
-    background-color: rgba(173, 216, 230, 0.925);
+    background-color: rgba(211, 235, 243, 0.925);
   }
   .data__box { /*cajas de datos cliente*/
     width: 300px;
     height: 30px;
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 10px;
   }
   .form { /*formularios*/
@@ -1203,7 +1065,7 @@ body { /*estilo del cuerpo*/
   }
   .opc { /*opciones*/
     color: #1466CC;
-    border: solid gold;
+    border: solid rgb(237, 237, 237);
     border-radius: 20px;
     width: 120px;
     background-color: white;
@@ -1229,7 +1091,7 @@ span:hover {
 .botones {
   background-image: linear-gradient(lightblue, rgb(150, 150, 255));
   color: black;
-  border: solid gold;
+  border: solid rgb(237, 237, 237);
   border-radius: 20px;
   margin: 10px;
   padding-bottom: 5px;
@@ -1243,6 +1105,156 @@ a {
 
 a:hover {
   color: blue;
+}
+
+/* VARIABLE */
+/* Estilos titulos*/
+h3, .h3 {
+  color: #4062FF;
+  font-size: 4rem;
+  padding: 10px;
+  font-family: "Merriweather", serif;
+  margin: 10px;
+}
+
+h4, .h4 {
+  color: #4062FF;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Merriweather", serif;
+}
+
+h5, .h5 {
+  color: #4062FF;
+  font-size: 2rem;
+  padding: 10px;
+  font-family: "Merriweather", serif;
+}
+
+h6, .h6 {
+  color: #4062FF;
+  font-size: 2rem;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: "Merriweather", serif;
+}
+
+header { /*estilos encabezado*/
+  width: 100%;
+  top: 0;
+}
+
+body { /*estilo del cuerpo*/
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.footer { /* Estilo del pie de pagina */
+  margin-top: 150px;
+}
+
+/*estilo logo*/
+#logo {
+  background-color: darkblue;
+  padding: 5px;
+  border-radius: 30px;
+  list-style: none;
+}
+
+/******* Imagenes ********/
+.img__promo { /*imagen promocion*/
+  width: 100%;
+  height: 80vh;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.img__serv, .img__serv4, .img__serv3, .img__serv2 { /*Imagenes servicios 1 */
+  border-radius: 20px;
+}
+
+.img__serv3 {
+  border: solid black;
+}
+
+.img__serv4 { /*imagens servicios 4*/
+  margin-right: 30px;
+}
+
+.img__mis { /*imagen vision*/
+  width: 50%;
+  margin: 20px;
+}
+
+.img__vis { /*imagen vision*/
+  width: 100%;
+  margin: 20px;
+}
+
+.img__prod { /*imagenes productos*/
+  width: auto;
+  height: 30rem;
+  border-radius: 20px;
+}
+
+.img__prod2 { /*imagenes productos 2 */
+  width: 90%;
+  height: 70%;
+  border-radius: 20px;
+}
+
+.img__logo { /*caja con imagen logo*/
+  width: 120px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.imgs__border { /*borde imagenes */
+  border-radius: 30px;
+  border: solid rgb(237, 237, 237);
+}
+
+.img__promo { /*estilo iamgen promocion*/
+  width: 100%;
+  height: 80vh;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.main__logo {
+  width: 40%;
+  height: 20%;
+  margin-left: 30%;
+}
+
+/* ESTILOS ESPECIFICOS DE FORMULARIO */
+.acp__terms { /*aceptar terminos y condiciones*/
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.acp__terms:hover {
+  color: darkgreen;
+}
+
+.txt__box { /*estilo caja aliado*/
+  background-color: white;
+  margin-right: 65%;
+  margin-top: 20px;
+  margin-left: 17px;
+}
+
+@media only screen and (min-width: 979px) {
+  .my-ft {
+    margin-top: 1.5rem !important;
+  }
+}
+
+.pd-ft {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
 }
 
 /*!
@@ -4860,7 +4872,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-x: 0rem;
   --bs-navbar-padding-y: 2rem;
   --bs-navbar-color: rgba(0, 0, 28, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
@@ -4875,7 +4887,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.25rem;
-  --bs-navbar-toggler-icon-bg: url("https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-menu-100-most-used-icons-flaticons-flat-flat-icons-2.png");
+  --bs-navbar-toggler-icon-bg: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAtklEQVRoge3WwQ2DIBjF8fdxNekEulAHYScn6QLdpN56cgJ6MBah2nBoKiT/3w2E5JEYeBIAAA2z7WC+X64WbAymvminSTKTmSQXx/HbMnzPuZ19lu1zO/tiykmS74bnbZ1wSaa6w0tSL2ncTiQHqDz8ajg8QAPhP2S/kKYGwj8ODxAs+HxBbeGD5L+uAIC/Si4tuhBdqOhRowudHZ4uBAC/k1xadCG6UNGjRhc6OzxdCACAarwAlF5BeoqZ5kwAAAAASUVORK5CYII=");
   --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
@@ -11964,12 +11976,6 @@ textarea.form-control-lg {
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
   padding-top: 30px;
-}
-
-/* Carousel */
-.caja__carousel {
-  margin: 30px;
-  border-radius: 30px;
 }
 
 /* animacion */

@@ -1,0 +1,16 @@
+.my-ft{
+    @media only screen and (max-width:480px) {
+        
+    }
+    @media only screen and (min-width:481px) and (max-width:978px){
+
+    }
+    @media only screen and (min-width:979px){
+        margin-top: 1.5rem !important;
+    }
+
+}
+.pd-ft{
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}

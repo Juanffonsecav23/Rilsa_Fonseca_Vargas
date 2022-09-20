@@ -1,11 +1,12 @@
 
     /******** IMPORTACIONES *********/
 
+@import "mediaq";
 @import "titulos";
 @import "estructura";
 @import "imagenes";
 @import "formulario";
-@import "mediaq";
+@import "footer";
 @import"bootstrap-5.2.0/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap'); /**estilo de texto**/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');/**estilo de texto**/
@@ -34,11 +35,6 @@
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     padding-top: 30px;
-}
-/* Carousel */
-.caja__carousel{
-    margin: 30px;
-    border-radius: 30px;
 }
 /* animacion */
 .anima {

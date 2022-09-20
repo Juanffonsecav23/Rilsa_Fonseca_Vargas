@@ -1084,7 +1084,7 @@ $nav-pills-link-active-bg:          $component-active-bg !default;
 
 // scss-docs-start navbar-variables
 $navbar-padding-y:                  $spacer * 2 !default;
-$navbar-padding-x:                  null !default;
+$navbar-padding-x:                  0rem !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
 
@@ -1115,7 +1115,7 @@ $navbar-light-color:                rgba($black, .55) !default;
 $navbar-light-hover-color:          rgba($black, .7) !default;
 $navbar-light-active-color:         rgba($black, .9) !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
-$navbar-light-toggler-icon-bg:      url("https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-menu-100-most-used-icons-flaticons-flat-flat-icons-2.png") !default;
+$navbar-light-toggler-icon-bg:      url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAtklEQVRoge3WwQ2DIBjF8fdxNekEulAHYScn6QLdpN56cgJ6MBah2nBoKiT/3w2E5JEYeBIAAA2z7WC+X64WbAymvminSTKTmSQXx/HbMnzPuZ19lu1zO/tiykmS74bnbZ1wSaa6w0tSL2ncTiQHqDz8ajg8QAPhP2S/kKYGwj8ODxAs+HxBbeGD5L+uAIC/Si4tuhBdqOhRowudHZ4uBAC/k1xadCG6UNGjRhc6OzxdCACAarwAlF5BeoqZ5kwAAAAASUVORK5CYII=") !default;
 $navbar-light-toggler-border-color: rgba($black, .1) !default;
 
 $navbar-light-brand-color:                $navbar-light-active-color !default;
