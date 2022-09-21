@@ -1,19 +1,18 @@
         /****** VARIABLE *******/
 
-$silver:rgb(237, 237, 237);
-$azuloscuro:darkblue;
-$negro: rgb(210, 215, 253);
-$gold:rgb(234, 200, 3);
+$silver:#ededed;
+$azuloscuro:#00008b;
+$negro: #d2d7fd;
+$gold: #d6b603;
 
 
         /******* MOBILE *******/
 
     @media only screen and (max-width:480px){
-        /***menu de la pàgina***/
+    /* carrousel */
     .caja__carousel{
-        /*  height: 50px; */
         border-radius: 30px;
-        }
+    }
     .img__promo {   /*imagen promocion*/
         width: 100%;
         height: 25rem;
@@ -37,7 +36,7 @@ $gold:rgb(234, 200, 3);
         padding: 10px;
         font-family: 'Kotta One', serif;
     }
-    #cajas__produc { /*grid productos recomendados*/
+    #cajas__produc { /* flexbox productos recomendados inicio */
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -159,7 +158,7 @@ $gold:rgb(234, 200, 3);
         margin-top: 5%;
         width: 200px;
     }
-    #productos {
+    #productos { /* flexbox de productos */
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -199,7 +198,7 @@ $gold:rgb(234, 200, 3);
         list-style-type: none;
     
     }
-    #servicios{
+    #servicios{ /* flexbox de servicios */
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -317,11 +316,11 @@ $gold:rgb(234, 200, 3);
         width:120px ;
         background-color: white;
     }
-    .center{
+    .center{ /* propiedad para centrar el titulo de direccion */
         margin-left: 20%;
         margin-right: 0;
     }
-    .center2{
+    .center2{ /* propiedad para centrar el iframe */
         margin-left: 7%;
         width: 20rem;
         height: 20rem;
@@ -331,7 +330,6 @@ $gold:rgb(234, 200, 3);
         /******* TABLET *******/
     
     @media only screen and (min-width:481px) and (max-width:978px){
-        /***menu de la pàgina***/
     /* Carousel */
     .caja__carousel{
         border-radius: 30px;
@@ -360,7 +358,7 @@ $gold:rgb(234, 200, 3);
         padding: 10px;
         font-family: 'Kotta One', serif;
     }
-    #cajas__produc { /*grid productos recomendados*/
+    #cajas__produc { /*flexbox productos recomendados*/
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -445,7 +443,7 @@ $gold:rgb(234, 200, 3);
         border: none;
         background-color:white;
     }
-    #mis__vis {
+    #mis__vis { /* grid de mision y vision */
         display: grid;
         grid-template-areas: 
         "titulo1 titulo1"
@@ -537,7 +535,7 @@ $gold:rgb(234, 200, 3);
         margin-top: 10%;
         width: 400px;
     }
-    #productos {
+    #productos { /* grid de productos */
         display: grid;
         grid-template-areas: 
         "titulo1 titulo2"
@@ -594,7 +592,7 @@ $gold:rgb(234, 200, 3);
         list-style-type: none;
     
     }
-    #servicios{
+    #servicios{ /*  grid de servicios */
         display: grid;
         grid-template-areas: 
         "titulo1 titulo1 titulo1"
@@ -686,7 +684,7 @@ $gold:rgb(234, 200, 3);
         height: 15rem;
         margin-left: 25%;
     }
-    .box__txt{ /*caja de texto*/
+    .box__txt{ /* flexbox de caja de texto*/
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -743,7 +741,6 @@ $gold:rgb(234, 200, 3);
         /******* DESKTOP *******/
     
     @media only screen and (min-width:979px){
-        /***menu de la pàgina***/
     /* Carousel */
     .caja__carousel{   
         margin: 30px;
@@ -803,23 +800,22 @@ $gold:rgb(234, 200, 3);
         margin-left: 3%;
     }
     #caja1{
-        width: 30vw;
         grid-area: caja1;
-        margin-left: 30%;
+        margin-left: 25%;
     }
     #caja2{
         grid-area: caja2;
-        margin-right: 25%;
-        margin-left: 15%;
+/*         margin-right: 25%;*/
+        margin-left: 13%;
     }
     #caja3{
         grid-area: caja3;
-        margin-right: 30%;
+        margin-right: 25%; 
     }
     #botones {
         grid-area: boton;
         width: 20%;
-        margin-left: 60%;
+        margin-left: 55%;
         padding-left: 3%;
         height: 60%;
     }
@@ -833,7 +829,7 @@ $gold:rgb(234, 200, 3);
     #botones3 {
         grid-area: boton3;
         width: 20%;
-        margin-left: 30%; 
+        margin-left: 33%; 
         padding-left: 3%;
         height: 60%;
     }
@@ -873,7 +869,7 @@ $gold:rgb(234, 200, 3);
         border: none;
         background-color:white;
     }
-    #mis__vis {
+    #mis__vis { /*  grid de mision y vision */
         display: grid;
         grid-template-areas: 
         "titulo1 titulo1"
@@ -964,7 +960,7 @@ $gold:rgb(234, 200, 3);
         margin-top: 5%;
         width: 600px;
     }
-    #productos {
+    #productos { /* grid de productos */
         display: grid;
         grid-template-areas: 
         "titulo1 titulo2"
@@ -1012,7 +1008,7 @@ $gold:rgb(234, 200, 3);
         list-style-type: none;
     
     }
-    #servicios{
+    #servicios{ /* grid de servicios */
         display: grid;
         grid-template-areas: 
         "titulo1 titulo1 titulo1"
@@ -1101,7 +1097,7 @@ $gold:rgb(234, 200, 3);
         grid-area: img_s5;
         margin-left: 35%;
     }
-    .box__txt{ /*caja de texto*/
+    .box__txt{ /* flexbox de caja de texto*/
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -1130,7 +1126,7 @@ $gold:rgb(234, 200, 3);
         border:solid $silver;
         border-radius: 10px;
     }
-    .form{ /*formularios*/
+    .form{ /* flexbox de formularios*/
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
