@@ -1,11 +1,5 @@
     /******* Imagenes ********/
 
-.img__promo {   /*imagen promocion*/
-    width: 100%;
-    height: 80vh;
-    padding: 15px;
-    border-radius: 30px;
-}
 .img__serv { /*Imagenes servicios 1 */
     border-radius: 20px;
 }
@@ -53,13 +47,7 @@
 }
 .imgs__border{  /*borde imagenes */
     border-radius: 30px;
-    border: solid $dorado;
-}
-.img__promo { /*estilo iamgen promocion*/
-    width: 100%;
-    height: 80vh;
-    padding: 15px;
-    border-radius: 30px;
+    border: solid $silver;
 }
 .main__logo{
     width: 40%;

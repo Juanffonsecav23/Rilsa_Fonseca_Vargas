@@ -6,22 +6,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 @media only screen and (max-width: 480px) {
   /***menu de la pàgina***/
-  /*     nav { 
-          display: flex;
-          flex-flow: column nowrap;
-          justify-content:center;
-          align-items: center;
-          background-color: $azuloscuro;
-          width: 100vw; 
-          height: 70%;
-          margin-bottom: 20px;
-      } */
-  span {
-    background-color: darkblue;
-    margin: 20px;
+  .caja__carousel {
+    /*  height: 50px; */
+    border-radius: 30px;
+  }
+  .img__promo { /*imagen promocion*/
+    width: 100%;
+    height: 25rem;
     padding: 15px;
     border-radius: 30px;
-    text-decoration: none;
   }
   .ul {
     background-color: lightgoldenrodyellow;
@@ -36,7 +29,7 @@
     height: 20%;
     margin-top: 10px;
     color: #1259B3;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 10px;
     font-family: "Kotta One", serif;
   }
@@ -49,25 +42,34 @@
     height: 110rem;
   }
   .section {
+    background-color: rgb(210, 215, 253);
     width: 100%;
     height: 200rem;
-    background-color: rgb(210, 215, 253);
   }
   .h1 {
-    width: auto;
-    margin-left: 15%;
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
   }
   .h2 {
-    width: auto;
-    margin-right: 10%;
+    color: rgb(234, 200, 3);
+    width: 50%;
+    height: 10%;
+    margin-left: 20%;
+  }
+  #caja4 {
+    width: 90%;
+    height: 20%;
   }
   #caja5 {
     width: 80vw;
     height: 50vh;
   }
   .a {
-    padding-left: 30px;
     padding-bottom: 30px;
+  }
+  .txt__mas { /*estilo caja mas info*/
+    text-decoration: none;
   }
   .img__aliado { /*estilo imagen aliado*/
     width: 50%;
@@ -75,7 +77,6 @@
     border-radius: 20px;
   }
   .recom { /*estilo cajas productos recomendados*/
-    height: 100%;
     width: auto;
     border-radius: 30px;
     border: solid rgb(237, 237, 237);
@@ -116,7 +117,7 @@
   }
   #img3 {
     width: 90%;
-    height: 20vh;
+    height: 20rem;
   }
   #img4 {
     width: 90%;
@@ -143,8 +144,7 @@
     font-family: "Roboto", sans-serif;
   }
   .h1_1 {
-    margin-right: 32%;
-    width: 200px;
+    width: 20rem;
   }
   .h1_2 {
     margin-top: 5%;
@@ -199,7 +199,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 170rem;
+    height: 205rem;
   }
   .sectionser {
     width: 100%;
@@ -277,10 +277,11 @@
     color: #1466CC;
     border: solid rgb(237, 237, 237);
   }
-  .h5_f {
-    margin-left: 2%;
-    width: 90%;
-    font-size: 2rem;
+  .h5-c1 {
+    width: 100%;
+  }
+  .h5-c2 {
+    width: 100%;
   }
   .form__box { /*caja formulario*/
     margin: 5px;
@@ -311,7 +312,8 @@
     background-color: white;
   }
   .center {
-    margin-left: 15%;
+    margin-left: 20%;
+    margin-right: 0;
   }
   .center2 {
     margin-left: 7%;
@@ -322,15 +324,14 @@
 /******* TABLET *******/
 @media only screen and (min-width: 481px) and (max-width: 978px) {
   /***menu de la pàgina***/
-  span {
-    background-color: none;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 30px;
-    text-decoration: none;
-  }
   /* Carousel */
   .caja__carousel {
+    border-radius: 30px;
+  }
+  .img__promo { /*imagen promocion*/
+    width: 100%;
+    height: 35rem;
+    padding: 15px;
     border-radius: 30px;
   }
   .ul {
@@ -347,7 +348,7 @@
     height: 20%;
     margin-top: 10px;
     color: #1259B3;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 10px;
     font-family: "Kotta One", serif;
   }
@@ -360,6 +361,7 @@
     height: 110rem;
   }
   .section {
+    background-color: rgb(210, 215, 253);
     width: 100%;
     height: 50rem;
   }
@@ -369,6 +371,7 @@
     margin-left: 10%;
   }
   .h2 {
+    color: rgb(234, 200, 3);
     height: 100px;
     margin-left: 10%;
     margin-right: 10%;
@@ -411,13 +414,15 @@
     width: 30rem;
     height: 10rem;
   }
+  .txt__mas { /*estilo caja mas info*/
+    text-decoration: none;
+  }
   .recom { /*estilo cajas productos recomendados*/
     border-radius: 30px;
     border: solid rgb(237, 237, 237);
     background-color: lightgoldenrodyellow;
   }
   .a {
-    padding-bottom: 30px;
     padding-left: 4%;
   }
   .img__aliado { /*estilo imagen aliado*/
@@ -578,7 +583,7 @@
   }
   .sectionser {
     width: 100%;
-    height: 185rem;
+    height: 163rem;
   }
   .h1_s1 {
     grid-area: titulo1;
@@ -661,11 +666,11 @@
   }
   .h5-c1 {
     width: 100%;
-    margin-left: 20%;
+    margin-left: 10%;
   }
   .h5-c2 {
     width: 100%;
-    margin-left: 17%;
+    margin-left: 7%;
   }
   .form__box { /*caja formulario*/
     margin: 5px 20%;
@@ -695,29 +700,25 @@
     background-color: white;
   }
   .center {
-    margin-left: 35%;
+    margin-left: 40%;
   }
   .center2 {
-    margin-left: 15%;
+    margin-left: 13%;
   }
 }
 /******* DESKTOP *******/
 @media only screen and (min-width: 979px) {
   /***menu de la pàgina***/
-  .menuh {
-    margin-right: 20%;
-  }
   /* Carousel */
   .caja__carousel {
     margin: 30px;
     border-radius: 30px;
   }
-  span {
-    background-color: none;
-    margin: 20px;
+  .img__promo { /*imagen promocion*/
+    width: 100%;
+    height: 45rem;
     padding: 15px;
     border-radius: 30px;
-    text-decoration: none;
   }
   .ul {
     background-color: lightgoldenrodyellow;
@@ -749,6 +750,7 @@
   .section {
     width: auto;
     height: 50rem;
+    background-color: rgb(210, 215, 253);
   }
   .h1 {
     grid-area: titulo;
@@ -756,6 +758,7 @@
     margin-left: 35%;
   }
   .h2 {
+    color: rgb(234, 200, 3);
     grid-area: titulo2;
     margin-left: 3%;
   }
@@ -775,26 +778,27 @@
   }
   #botones {
     grid-area: boton;
-    width: 120px;
+    width: 20%;
     margin-left: 60%;
-    margin-right: 20%;
-    height: 40%;
+    padding-left: 3%;
+    height: 60%;
   }
   #botones2 {
     grid-area: boton2;
-    width: 120px;
+    width: 20%;
     margin-left: 45%;
-    margin-right: 40%;
-    height: 40%;
+    padding-left: 3%;
+    height: 60%;
   }
   #botones3 {
     grid-area: boton3;
-    width: 120px;
-    margin-right: 40%;
+    width: 20%;
     margin-left: 30%;
-    height: 40%;
+    padding-left: 3%;
+    height: 60%;
   }
   #caja4 {
+    color: rgb(234, 200, 3);
     grid-area: caja4;
     margin-left: 5%;
     margin-bottom: 5%;
@@ -804,6 +808,10 @@
     margin-left: 5%;
     margin-bottom: 5%;
   }
+  .txt__mas { /*estilo caja mas info*/
+    height: 5rem;
+    text-decoration: none;
+  }
   .recom { /*estilo cajas productos recomendados*/
     border-radius: 30px;
     border: solid rgb(237, 237, 237);
@@ -811,7 +819,6 @@
   }
   .a {
     padding-left: 30px;
-    /*         padding-bottom: 30px;   */
   }
   .img__aliado { /*estilo imagen aliado*/
     width: 100%;
@@ -962,7 +969,7 @@
   }
   .sectionser {
     width: 100%;
-    height: 160rem;
+    height: 155rem;
   }
   .h1_s1 {
     grid-area: titulo1;
@@ -987,7 +994,7 @@
   .ps1 {
     grid-area: texto1;
     padding-top: 7%;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-right: 5%;
   }
   .ps2 {
@@ -1009,10 +1016,12 @@
   }
   .img_s1 {
     grid-area: img_s1;
+    margin-left: 5%;
     border-radius: 30px;
   }
   .img_s2 {
     grid-area: img_s2;
+    height: 20rem;
     margin-left: 30%;
   }
   .img_s3 {
@@ -1082,19 +1091,13 @@ span:hover {
   background-color: white;
 }
 
-.txt__mas { /*estilo caja mas info*/
-  color: #1466CC;
-  text-decoration: none;
-  padding-bottom: 5px;
-}
-
 .botones {
   background-image: linear-gradient(lightblue, rgb(150, 150, 255));
   color: black;
   border: solid rgb(237, 237, 237);
   border-radius: 20px;
   margin: 10px;
-  padding-bottom: 5px;
+  padding: 5px;
 }
 
 /*estilo links*/
@@ -1164,13 +1167,6 @@ body { /*estilo del cuerpo*/
 }
 
 /******* Imagenes ********/
-.img__promo { /*imagen promocion*/
-  width: 100%;
-  height: 80vh;
-  padding: 15px;
-  border-radius: 30px;
-}
-
 .img__serv, .img__serv4, .img__serv3, .img__serv2 { /*Imagenes servicios 1 */
   border-radius: 20px;
 }
@@ -1214,13 +1210,6 @@ body { /*estilo del cuerpo*/
 .imgs__border { /*borde imagenes */
   border-radius: 30px;
   border: solid rgb(237, 237, 237);
-}
-
-.img__promo { /*estilo iamgen promocion*/
-  width: 100%;
-  height: 80vh;
-  padding: 15px;
-  border-radius: 30px;
 }
 
 .main__logo {
@@ -4303,6 +4292,10 @@ textarea.form-control-lg {
   opacity: 0;
 }
 
+.collapse {
+  display: flex;
+  justify-content: center;
+}
 .collapse:not(.show) {
   display: none;
 }
@@ -4747,7 +4740,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: #ffd700;
+  --bs-nav-link-color: rgb(234, 200, 3);
   --bs-nav-link-hover-color: #00008b;
   --bs-nav-link-disabled-color: #6c757d;
   display: flex;
@@ -4764,7 +4757,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: #ffd700;
+  color: rgb(234, 200, 3);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }

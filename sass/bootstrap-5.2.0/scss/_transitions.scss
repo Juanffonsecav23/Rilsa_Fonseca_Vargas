@@ -8,6 +8,8 @@
 
 // scss-docs-start collapse-classes
 .collapse {
+  display: flex;
+  justify-content: center;
   &:not(.show) {
     display: none;
   }
